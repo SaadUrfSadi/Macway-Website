@@ -1,4 +1,47 @@
 
 .navbar{
-  background-color: rgba(65, 65, 65, 0.5%);
+  background-color: rgb(65, 65, 65);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.navbar-main-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 0px;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+}
+.navbar img{
+  width: 80px;
+}
+.mlogo{
+  position: relative;
+}
+.wlogo{
+  position: absolute;
+  left: 0px;
+}
+.macway-ltd-logo span{
+  color: rgba(198, 213, 80);
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 9px;
+  /* margin-top: -12px; */
+}
+.navbar-list ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%;
+  max-width: 800px; */
+  gap: 23px;
+}
+.navbar-list ul a{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
 }
