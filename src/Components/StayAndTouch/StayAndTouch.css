@@ -1,0 +1,46 @@
+.stay-and-touch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    gap: 45px;
+    width: 100%;
+}
+.stay-and-touch-container h1 {
+  gap: 10px;
+  font-size: 26px;
+  color: #414141;
+  font-weight: 500;
+}
+.stay-and-touch-container p{
+    color: #414141;
+    margin-bottom: 10px;
+}
+.email-subscribe form{
+    width: 100%;
+    display: flex;
+    gap: 14px;
+    /* cursor: pointer; */
+}
+form input{
+    width: 100%;
+    min-width: 365px;
+    outline: none;
+    border: none;
+    border: 1px solid #414141;
+    padding: 12px 8px;
+    background-color: #efefef4d;
+    cursor: pointer;
+}
+form button{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 4px 24px;
+    border: 1px solid #a8dc36 ;
+    background: #a8dc36;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}

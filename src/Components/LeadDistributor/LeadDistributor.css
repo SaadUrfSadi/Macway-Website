@@ -1,0 +1,29 @@
+.lead-dis h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 36px;
+  color: #414141;
+  font-weight: 500;
+}
+.lead-dis span{
+  color: #c7d658;
+}
+.home-dis-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  text-align: center;
+  padding: 50px 0px;
+}
+.home-item-name h2{
+  font-weight: 500;
+}
+.home-item-name p{
+  color: #a4a4a4;
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 14px;
+}

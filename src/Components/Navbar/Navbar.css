@@ -1,9 +1,10 @@
 
 .navbar{
-  background-color: rgb(65, 65, 65);
+  background-color: #585858;
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 .navbar-main-container{
   display: flex;
